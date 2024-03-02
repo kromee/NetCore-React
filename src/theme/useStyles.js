@@ -1,6 +1,7 @@
-import { createMuiTheme, makeStyles } from '@material-ui/core';
+import { createTheme, makeStyles } from '@material-ui/core';
 
-const theme = createMuiTheme();
+const theme = createTheme();
+
 
 const useStyles = makeStyles({
     containermt: {

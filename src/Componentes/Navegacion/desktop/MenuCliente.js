@@ -2,8 +2,14 @@ import React, { useState }  from "react";
 import { Link } from 'react-router-dom';
 import useStyles from "../../../theme/useStyles";
 import { Avatar, Button, Icon, ListItemIcon, ListItemText, Menu, MenuItem } from '@material-ui/core';
+import { useStateValue } from "../../../contexto/store";
 
 const MenuCliente = () => {
+
+    const [{sesionUsuario}, dispacth] = useStateValue();
+
+
+
     const classes = useStyles();
 
     const [anchorEl, setAnchorEl] = useState(null);
@@ -28,7 +34,11 @@ const MenuCliente = () => {
                     <div className={classes.linkAppBarDesktop}>
                         <Avatar alt="mi imagen"
                         className={classes.avatarPerfilAppBar}
-                        src="./images/perfil.png"/> Eduardo
+                        src="./images/perfil.png"/> 
+                        {sesionUsuario ? 
+                            (sesionUsuario.autenticado ? 
+                            sesionUsuario.usuario.nombre + ' '+sesionUsuario.usuario.apellido : 'Sin sesión')
+                        : 'no session'}
                         <Icon> keyboard_arrow_down</Icon>
                     </div>
 
@@ -38,7 +48,7 @@ const MenuCliente = () => {
                         anchorEl={anchorEl}
                         getContentAnchorEl={null}
                         anchorOrigin={{
-                            vertical:"botton",
+                            vertical:"bottom",
                             horizontal:"center"
                         }}
                         transformOrigin={{

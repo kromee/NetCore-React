@@ -3,21 +3,29 @@ import React, { useState } from "react";
 import useStyles from '../../theme/useStyles';
 
 import { Link } from "react-router-dom";
+import { registrarUsuario } from "../../actions/UsuarioAction";
+import {useStateValue} from "../../contexto/store";
+
 
 const clearUsuario ={
     nombre:'',
-    apellidos:'',
+    apellido:'',
     email:'',
-    password:''
+    password:'',
+    username:'',
 }
 
-const RegistrarUsuario =()=>{
+const RegistrarUsuario =(props)=>{
+
+const [{sesionUsuario}, dispatch] = useStateValue();
+
 
     const [usuario, setUsuario]= useState({
         nombre:'',
-        apellidos:'',
+        apellido:'',
         email:'',
-        password:''
+        password:'',
+        username:'',
 
     });
 
@@ -31,8 +39,17 @@ const handleChange = (e)=>{
 }
 
 const guardarUsuario=()=>{
-    console.log('Mi usiario es', usuario);
-    setUsuario(clearUsuario);
+
+    registrarUsuario (usuario, dispatch).then (response =>{
+        console.log('Objeto del guardarUsuario ', response);
+        if (response.status!=200){
+            return;
+        }
+        props.history.push('/');
+        console.log('Objeto del servidor', response);
+        window.localStorage.setItem('token', response.data.token);
+        
+    })
 }
 
 
@@ -64,8 +81,8 @@ const guardarUsuario=()=>{
                                     <TextField
                                         label="Apellidos"
                                         variant="outlined"
-                                        name='apellidos'
-                                        value={usuario.apellidos}
+                                        name='apellido'
+                                        value={usuario.apellido}
                                         onChange={handleChange}
                                         fullWidth/>
                                 
@@ -94,6 +111,16 @@ const guardarUsuario=()=>{
                                 
                             </Grid>
                             <Grid item md={12} xs={12} className={classes.gridmb}>
+                                    <TextField
+                                        label="user"
+                                        variant="outlined"
+                                        name='username'
+                                        value={usuario.username}
+                                        onChange={handleChange}
+                                        fullWidth/>
+                                
+                            </Grid>
+                            <Grid item md={12} xs={12} className={classes.gridmb}>
                                   <Button 
                                   variant="contained"
                                   fullWidth
@@ -104,6 +131,7 @@ const guardarUsuario=()=>{
                                   Registrar
                                   </Button>
                             </Grid>
+                         
                         </Grid>
                         <Link 
                         to="/login"

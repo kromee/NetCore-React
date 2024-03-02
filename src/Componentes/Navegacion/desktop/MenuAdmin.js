@@ -33,7 +33,7 @@ const MenuAdmin = ()=>{
                         anchorEl={anchorEl}
                         getContentAnchorEl={null}
                         anchorOrigin={{
-                            vertical:"botton",
+                            vertical:"bottom",
                             horizontal:"center"
                         }}
                         transformOrigin={{
