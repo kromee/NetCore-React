@@ -1,0 +1,17 @@
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/bin/Debug/net7.0/BusinessLogic.deps.json
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/bin/Debug/net7.0/BusinessLogic.runtimeconfig.json
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/bin/Debug/net7.0/BusinessLogic.dll
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/bin/Debug/net7.0/BusinessLogic.pdb
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/bin/Debug/net7.0/Core.dll
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/bin/Debug/net7.0/Core.pdb
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/obj/Debug/net7.0/BusinessLogic.csproj.AssemblyReference.cache
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/obj/Debug/net7.0/BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/obj/Debug/net7.0/BusinessLogic.AssemblyInfoInputs.cache
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/obj/Debug/net7.0/BusinessLogic.AssemblyInfo.cs
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/obj/Debug/net7.0/BusinessLogic.csproj.CoreCompileInputs.cache
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/obj/Debug/net7.0/BusinessLogic.csproj.CopyComplete
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/obj/Debug/net7.0/BusinessLogic.dll
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/obj/Debug/net7.0/refint/BusinessLogic.dll
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/obj/Debug/net7.0/BusinessLogic.pdb
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/obj/Debug/net7.0/BusinessLogic.genruntimeconfig.cache
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/BusinessLogic/obj/Debug/net7.0/ref/BusinessLogic.dll

@@ -1,0 +1,12 @@
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/Core/bin/Debug/net7.0/Core.deps.json
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/Core/bin/Debug/net7.0/Core.dll
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/Core/bin/Debug/net7.0/Core.pdb
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/Core/obj/Debug/net7.0/Core.csproj.AssemblyReference.cache
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/Core/obj/Debug/net7.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/Core/obj/Debug/net7.0/Core.AssemblyInfoInputs.cache
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/Core/obj/Debug/net7.0/Core.AssemblyInfo.cs
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/Core/obj/Debug/net7.0/Core.csproj.CoreCompileInputs.cache
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/Core/obj/Debug/net7.0/Core.dll
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/Core/obj/Debug/net7.0/refint/Core.dll
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/Core/obj/Debug/net7.0/Core.pdb
+/Users/eduardodominguez/Desktop/Cursos/NetMarket/NetMarket/Core/obj/Debug/net7.0/ref/Core.dll
